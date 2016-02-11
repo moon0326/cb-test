@@ -49,7 +49,7 @@ class RequestPlusTest extends PHPUnit_Framework_TestCase
         # Re-create the primary index
         $this->createPrimaryIndex();
 
-        # Create a documentcb-
+        # Create a document
         $this->bucket()->insert('test', [
             'content' => 'test content'
         ]);

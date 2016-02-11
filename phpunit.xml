@@ -16,8 +16,7 @@
         </testsuite>
     </testsuites>
     <php>
-        <env name="BUCKET" value="engage_testing"/>
-        <env name="BUCKET_PASSWORD" value="engage"/>
-        <env name="HOST" value="http://10.0.2.2:8091"/>
+        <env name="BUCKET" value="BUCKET"/>
+        <env name="HOST" value="HOST"/>
     </php>
 </phpunit>
